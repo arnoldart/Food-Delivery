@@ -1,0 +1,66 @@
+.btn {
+  padding: 8px 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  z-index: 3;
+}
+
+.btn--primary {
+  border: 1px solid #FA4A0C;
+  background: #FA4A0C;
+  color: white;
+  transition: all .3s ease;
+}
+
+.btn--primary:hover {
+  border: 1px solid #FA4A0C;
+  background: transparent;
+}
+
+.btn--outline {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: all .3s ease;
+}
+
+.btn--outline:hover {
+  background: #FA4A0C;
+  border: 1px solid #FA4A0C;
+}
+
+.btn--large {
+  padding: 1rem 4rem;
+}
+
+.med {
+  border-radius: .5rem;
+}
+
+.large {
+  border-radius: 5rem;
+}
+
+/* @media (max-width: 468) {
+  .btn--outline {
+    border: 1px solid white;
+    color: white;
+  }
+} */
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .btn--outline {
+    border: 1px solid white;
+    color: white;
+  }
+
+  .btn--outline:hover {
+    color: white;
+  }
+
+  
+}

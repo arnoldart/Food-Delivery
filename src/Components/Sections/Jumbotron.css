@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.jumbotron-img {
+  background: url('../images/jumbotron.png');
+  height: 95.5vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 7rem;
+}
+
+.text {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text--logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.margin--heading {
+  margin: 1rem 0;
+}
+
+.text--heading {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.text-desc {
+  font-size: 1.2rem;
+}
+
+.button-jmb {
+  margin-top: 2rem;
+}
+
+.button__inner {
+  margin: 0 1rem;
+}
+
+.button-text {
+  font-weight: bold;
+}
+
+.btn__luar {
+  display: flex;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .text--heading {
+    font-size: 33px;
+    padding: 0 1rem;
+  }
+
+  .text--logo {
+    font-size: 1rem;
+  }
+
+  .text-desc{
+    padding: 0 1rem;
+  }
+
+  .button__inner2 {
+    margin-top: 2rem;
+  }
+
+  .btn__luar {
+    flex-direction: column;
+  }
+
+}
