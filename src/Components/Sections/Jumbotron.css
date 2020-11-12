@@ -55,6 +55,10 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   
+  .content {
+    top: 3rem;
+  }
+
   .text--heading {
     font-size: 33px;
     padding: 0 1rem;
