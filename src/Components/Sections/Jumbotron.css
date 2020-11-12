@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+.jumbotron-container {
+  overflow: hidden;
+}
+
 .jumbotron-img {
   background: url('../images/jumbotron.png');
   height: 95.5vh;
@@ -78,6 +82,37 @@
 
   .btn__luar {
     flex-direction: column;
+  }
+
+}
+
+@media (min-width: 360px) and (max-width: 406px) {
+  .content {
+    top: 4rem;
+  }
+
+  .text--heading {
+    font-size: 1.8rem;
+  }
+
+  .text-desc {
+    font-size: 1.2rem;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 360px) { 
+
+  .content {
+    top: 4.5rem;
+  }
+
+  .text--heading {
+    font-size: 1.5rem;
+  }
+
+  .text-desc {
+    font-size: 1rem;
   }
 
 }
