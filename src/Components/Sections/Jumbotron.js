@@ -2,6 +2,7 @@ import React from 'react'
 import './Jumbotron.css'
 import { Link } from 'react-router-dom'
 import { Button } from '../Button'
+import Hp1 from '../images/hp1.png'
 
 function Jumbotron({
   img,
@@ -14,7 +15,7 @@ function Jumbotron({
   return (
     <>
       <div className="jumbotron-container">
-        <div className="jumbotron-img">
+        <div className="jumbotron-img"></div>
           <div className="content">
             <div className="text">
               <p className="text--logo">{textLogo}</p>
@@ -41,7 +42,9 @@ function Jumbotron({
               </div>
             </div>
           </div>
-        </div>
+      </div>
+      <div className="hp1">
+        <img src={Hp1} alt={alt}></img>
       </div>
     </>
   )

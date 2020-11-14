@@ -44,6 +44,15 @@
   border-radius: 5rem;
 }
 
+.btn--medium {
+  padding: .9rem 1.5rem;
+}
+
+.footer--button {
+  display: flex;
+  justify-content: center;
+}
+
 /* @media (max-width: 468) {
   .btn--outline {
     border: 1px solid white;
@@ -62,5 +71,4 @@
     color: white;
   }
 
-  
 }

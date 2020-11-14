@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.hero--container {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 40rem;
+  padding: 0 1rem;
+}
+
+.hero--img img{
+  width: 40vw;
+  margin-left: 6rem;
+}
+@media (min-width: 1281px) {
+
+  .hero--content {
+    display: flex;
+    align-items: center;
+    margin-left: -5rem;
+    /* background-color: aqua; */
+  }
+
+  .hero--img {
+    width: 50%;
+    /* background-color: red; */
+  }
+
+  .text--heading2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .hero--bordertop  {
+    margin-bottom: 2rem;
+    width: 50%;
+  }
+
+  .hero--top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero--desc {
+    /* background-color: blue; */
+    width: 50%;
+  }
+
+  .herotext--heading {
+    margin: .5rem 0;
+    font-size: 3rem;
+  }
+
+  .herotext--logo {
+    font-weight: bold;
+    color: #FA4A0C;
+  }
+
+  .herotext--desc {
+    color: #737373;
+    font-size: 1.2rem;
+    width: 55%;
+  }
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .hero--top {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .hero--bordertop {
+    width: 100%;
+  }
+
+  .text--heading2 {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+
+  .hero--content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hero--desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    margin-top: 3rem;
+  }
+
+  .herotext--logo {
+    color: #FA4A0C;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .herotext--heading {
+    color: #252B42;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .herotext--desc {
+    color: #737373;
+    text-align: center;
+  }
+
+  .hero--img {
+    overflow: hidden;
+  }
+
+  .hero--img img {
+    width: 100vw;
+    margin-left: 2rem;
+  }
+
+}
